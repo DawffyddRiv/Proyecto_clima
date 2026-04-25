@@ -37,7 +37,9 @@ df=dfa.ajustardf(6,22)
 objcarga=CargaDatos()
 
 objcarga.cargar_csv("datos_clima_export.csv")
-consulta_uno=objcarga.consultando("Select avg(temperatura_c) as promedio from mi_clima")
+consulta_uno=objcarga.consultando("Select strftime('%Y-%m-%d',fecha) as dia , avg(temperatura_c) as Temp_Promedio from mi_clima group by dia order by fecha asc") #Aqui lo primero que se me ocurre es un group by para la primer consulta
 print(consulta_uno)
+consulta_dos=objcarga.consultando("select fecha,precipitacion_mm from mi_clima where precipitacion_mm > 0")
+print(consulta_dos)
 
 objcarga.cerrar_conexion()

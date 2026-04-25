@@ -10,7 +10,7 @@ class ExtractorDatos:
         start_date=fecha_inicio
         end_date=fecha_fin
         #url=f'https://api.open-meteo.com/v1/forecast?latitude=19.43&longitude=-99.13&hourly=temperature_2m,precipitation&past_days=7&forecast_days=0'
-        url2=f"https://api.open-meteo.com/v1/forecast?latitude=19.43&longitude=-99.13&hourly=temperature_2m,precipitation&start_date={start_date}&end_date={end_date}"
+        url2=f"https://api.open-meteo.com/v1/forecast?latitude=19.43&longitude=-99.13&hourly=temperature_2m,precipitation&start_date={start_date}&end_date={end_date}" #Aqui solo modificamos el rango de fechas
         try:
             r=requests.get(url2,timeout=30)
             r.raise_for_status()
