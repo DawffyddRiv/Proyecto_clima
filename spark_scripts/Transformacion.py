@@ -1,16 +1,23 @@
 from Extraccion import ExtractorDatos
-
+import logging
 import pandas as pd
 
 class Transformador:
     def __init__(self,datafra):
         self.df=datafra.copy()
-    def ajustardf(self,hora_ini,hora_fin):
-        self.df=self.df.rename(columns={"time":"fecha","temperature_2m":"temperatura_c","precipitation":"precipitacion_mm"})
-        self.df["fecha"]=pd.to_datetime(self.df['fecha'], errors='coerce')
-        self.df=self.df[(self.df["fecha"].dt.hour >= hora_ini) & (self.df["fecha"].dt.hour <=hora_fin)]
-        return self.df
 
+    def ajustardf(self,hora_ini,hora_fin):
+        try:
+            self.df=self.df.rename(columns={"time":"fecha","temperature_2m":"temperatura_c","precipitation":"precipitacion_mm"})
+            self.df["fecha"]=pd.to_datetime(self.df['fecha'], errors='coerce')
+            self.df=self.df[(self.df["fecha"].dt.hour >= hora_ini) & (self.df["fecha"].dt.hour <=hora_fin)]            
+            #return self.df   <- En caso de que requieras el dataframe para pasarlo como parametro  
+            self.df.to_csv("datos_clima_export.csv", index=False)
+            logging.info("Se ha exportado el DataFrame a el archivo csv")
+        except KeyError as e:
+            logging.error(f"Error. Puede hacer falta una columna {e}")
+        except Exception as e:
+            logging.error(f"Error. Existe un fallo en transformación de datos {e}")
 
 extractor=ExtractorDatos(paseAPI=None)
 informacion=extractor.busqueda("2026-04-17","2026-04-23")
@@ -27,4 +34,4 @@ print(f"Los registros nulos de Temperatura son {nulosT} y los nulos de precipita
 print(f"los registros negativos de Temperatura son:{negativosT} y los negativos para precipitacion son {negativosP} ")
 print(df.head())
 print(df.info())
-df.to_csv("datos_clima_export.csv", index=False)
+#df.to_csv("datos_clima_export.csv", index=False)
