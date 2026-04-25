@@ -19,14 +19,25 @@ class CargaDatos:
     
     def consultando(self, consulta):
         try:
-            respuesta=pd.read_sql_query(self.conn)
+            respuesta=pd.read_sql_query(consulta,self.conn)
             return respuesta
         except Exception as e:
             logging.error(f"Error en la consulta: {e}")
             return None
+    def cerrar_conexion(self):
+        logging.info(f"Se cerró la conexion a {self.archivo_clima}")
+
+
 extractor=ExtractorDatos(paseAPI=None)
 informacion=extractor.busqueda("2026-04-17","2026-04-23")
 dat=extractor.extrae_datos(informacion)
 dfa=Transformador(dat)
 df=dfa.ajustardf(6,22)
 
+objcarga=CargaDatos()
+
+objcarga.cargar_csv("datos_clima_export.csv")
+consulta_uno=objcarga.consultando("Select avg(temperatura_c) as promedio from mi_clima")
+print(consulta_uno)
+
+objcarga.cerrar_conexion()

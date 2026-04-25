@@ -14,6 +14,9 @@ class ExtractorDatos:
         try:
             r=requests.get(url2,timeout=30)
             r.raise_for_status()
+
+            #Falto agregar la manera en que se revisé el json, no se te vaya a olvidar de nuevo.
+
             
         except requests.exceptions.HTTPError as e:
             logging.error(f"Error web-http: {e}")
