@@ -30,13 +30,3 @@ dat=extractor.extrae_datos(informacion)
 dfa=Transformador(dat)
 df=dfa.ajustardf(6,22)
 
-nulosT=len(df[df["temperatura_c"].isna()])
-nulosP=len(df[df["precipitacion_mm"].isna()])
-
-negativosT=len(df[df["temperatura_c"] < 0 ])
-negativosP=len(df[df["precipitacion_mm"] <0 ])
-print(f"Los registros nulos de Temperatura son {nulosT} y los nulos de precipitacion son {nulosP}")
-print(f"los registros negativos de Temperatura son:{negativosT} y los negativos para precipitacion son {negativosP} ")
-print(df.head())
-print(df.info())
-#df.to_csv("datos_clima_export.csv", index=False)

@@ -14,6 +14,17 @@ class Transformador:
             #return self.df   <- En caso de que requieras el dataframe para pasarlo como parametro  
             self.df.to_csv("datos_clima_export.csv", index=False)
             logging.info("Se ha exportado el DataFrame a el archivo csv")
+
+            
+            nulosT=len(self.df[self.df["temperatura_c"].isna()])
+            nulosP=len(self.df[self.df["precipitacion_mm"].isna()])
+
+            negativosT=len(self.df[self.df["temperatura_c"] < 0 ])
+            negativosP=len(self.df[self.df["precipitacion_mm"] <0 ])
+            print(f"Los registros nulos de Temperatura son {nulosT} y los nulos de precipitacion son {nulosP}")
+            print(f"los registros negativos de Temperatura son:{negativosT} y los negativos para precipitacion son {negativosP} ")
+            print(self.df.head())
+            print(self.df.info())
         except KeyError as e:
             logging.error(f"Error. Puede hacer falta una columna {e}")
         except Exception as e:
@@ -25,13 +36,4 @@ dat=extractor.extrae_datos(informacion)
 dfa=Transformador(dat)
 df=dfa.ajustardf(6,22)
 
-nulosT=len(df[df["temperatura_c"].isna()])
-nulosP=len(df[df["precipitacion_mm"].isna()])
-
-negativosT=len(df[df["temperatura_c"] < 0 ])
-negativosP=len(df[df["precipitacion_mm"] <0 ])
-print(f"Los registros nulos de Temperatura son {nulosT} y los nulos de precipitacion son {nulosP}")
-print(f"los registros negativos de Temperatura son:{negativosT} y los negativos para precipitacion son {negativosP} ")
-print(df.head())
-print(df.info())
 #df.to_csv("datos_clima_export.csv", index=False)
