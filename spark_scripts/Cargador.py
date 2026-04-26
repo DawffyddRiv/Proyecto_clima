@@ -41,5 +41,10 @@ consulta_uno=objcarga.consultando("Select strftime('%Y-%m-%d',fecha) as dia , av
 print(consulta_uno)
 consulta_dos=objcarga.consultando("select fecha,precipitacion_mm from mi_clima where precipitacion_mm > 0")
 print(consulta_dos)
+consulta_3=objcarga.consultando("select date(fecha) as Fecha_, (max(temperatura_c)-min(temperatura_c)) as DiferenciaTemp from mi_clima group by Fecha_ order by DiferenciaTemp desc limit 1")
+print(consulta_3)#Aqui el detalle fue la fecha la cual al tener la hora dentro de su formato me hacia considerar cada registro como único lo que impedia el group by.
 
-objcarga.cerrar_conexion()
+#Vamos a realizar primero la consulta simple que solicitan, despues pasamos a mostrar como se vería como acumulado por dia. No si se requiere un CTE con una funciont de ventana
+
+consulta_4=objcarga.consultando("With agrupados as(select date(fecha) as Fecha_,min(temperatura_c) as tempMin, max(temperatura_c) as tempMax,avg(temperatura_c) as tempProm,sum(precipitacion_mm) as lluvia_dia from mi_clima group by date(fecha))select Fecha_,tempMin,tempMax,tempProm, sum(lluvia_dia) over (order by Fecha_ rows between unbounded preceding and current row) as lluvia_acumulada from agrupados")
+print(consulta_4)
