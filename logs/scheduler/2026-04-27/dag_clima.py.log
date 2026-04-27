@@ -36957,3 +36957,564 @@ TypeError: Object of type DataFrame is not JSON serializable
 [2026-04-27T04:55:37.987+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:55:37.987+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2026-04-27T04:55:38.003+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:55:38.002+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
 [2026-04-27T04:55:38.017+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.119 seconds
+[2026-04-27T04:55:48.099+0000] {processor.py:157} INFO - Started process (PID=4935) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:55:48.100+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:55:48.100+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:55:48.100+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:55:50.127+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:55:50.127+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:55:50.142+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:55:50.141+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:55:50.146+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:55:50.148+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:55:50.150+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:55:50.154+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:55:50.157+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:55:50.173+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:55:50.172+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:55:50.187+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:55:50.186+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:55:50.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.104 seconds
+[2026-04-27T04:56:00.402+0000] {processor.py:157} INFO - Started process (PID=4941) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:00.403+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:56:00.403+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:00.403+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:02.378+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:02.378+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:56:02.395+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:02.395+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:56:02.398+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:56:02.401+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:56:02.403+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:56:02.407+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:56:02.411+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:02.429+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:02.428+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:56:02.445+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:02.445+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:56:02.462+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.063 seconds
+[2026-04-27T04:56:12.523+0000] {processor.py:157} INFO - Started process (PID=4947) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:12.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:56:12.525+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:12.524+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:14.618+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:14.617+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:56:14.632+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:14.631+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:56:14.635+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:56:14.637+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:56:14.640+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:56:14.644+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:56:14.647+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:14.664+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:14.664+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:56:14.677+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:14.677+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:56:14.688+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.168 seconds
+[2026-04-27T04:56:24.766+0000] {processor.py:157} INFO - Started process (PID=4953) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:24.766+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:56:24.767+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:24.767+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:26.781+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:26.781+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:56:26.796+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:26.795+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:56:26.799+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:56:26.802+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:56:26.804+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:56:26.809+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:56:26.813+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:26.832+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:26.832+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:56:26.847+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:26.847+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:56:26.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.101 seconds
+[2026-04-27T04:56:37.099+0000] {processor.py:157} INFO - Started process (PID=4959) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:37.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:56:37.103+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:37.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:39.162+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:39.162+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:56:39.178+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:39.177+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:56:39.181+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:56:39.183+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:56:39.186+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:56:39.191+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:56:39.195+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:39.213+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:39.213+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:56:39.227+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:39.227+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:56:39.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.144 seconds
+[2026-04-27T04:56:49.300+0000] {processor.py:157} INFO - Started process (PID=4965) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:49.301+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:56:49.302+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:49.302+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:51.306+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:51.306+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:56:51.321+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:51.321+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:56:51.325+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:56:51.327+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:56:51.330+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:56:51.335+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:56:51.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:56:51.354+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:51.354+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:56:51.369+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:56:51.368+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:56:51.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.085 seconds
+[2026-04-27T04:57:01.620+0000] {processor.py:157} INFO - Started process (PID=4971) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:01.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:57:01.623+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:01.622+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:03.756+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:03.756+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:57:03.775+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:03.774+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:57:03.779+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:57:03.783+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:57:03.788+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:57:03.795+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:57:03.801+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:03.825+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:03.824+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:57:03.846+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:03.846+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:57:03.866+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.253 seconds
+[2026-04-27T04:57:13.952+0000] {processor.py:157} INFO - Started process (PID=4977) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:13.952+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:57:13.953+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:13.953+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:16.092+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:16.092+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:57:16.108+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:16.108+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:57:16.112+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:57:16.114+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:57:16.116+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:57:16.120+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:57:16.123+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:16.138+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:16.138+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:57:16.151+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:16.151+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:57:16.163+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.215 seconds
+[2026-04-27T04:57:26.240+0000] {processor.py:157} INFO - Started process (PID=4983) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:26.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:57:26.244+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:26.244+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:28.318+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:28.318+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:57:28.334+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:28.333+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:57:28.337+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:57:28.339+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:57:28.342+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:57:28.345+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:57:28.348+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:28.365+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:28.365+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:57:28.379+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:28.378+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:57:28.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.154 seconds
+[2026-04-27T04:57:38.527+0000] {processor.py:157} INFO - Started process (PID=4989) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:38.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:57:38.529+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:38.528+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:40.585+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:40.585+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:57:40.604+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:40.603+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:57:40.608+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:57:40.611+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:57:40.613+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:57:40.619+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:57:40.623+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:40.640+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:40.640+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:57:40.654+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:40.654+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:57:40.667+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.143 seconds
+[2026-04-27T04:57:50.749+0000] {processor.py:157} INFO - Started process (PID=4995) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:50.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:57:50.751+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:50.751+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:52.750+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:52.750+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:57:52.766+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:52.765+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:57:52.770+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:57:52.773+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:57:52.776+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:57:52.780+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:57:52.783+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:57:52.803+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:52.803+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:57:52.818+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:57:52.818+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:57:52.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.086 seconds
+[2026-04-27T04:58:03.075+0000] {processor.py:157} INFO - Started process (PID=5001) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:03.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:58:03.076+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:03.076+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:05.215+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:05.214+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:58:05.231+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:05.230+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:58:05.235+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:58:05.238+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:58:05.240+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:58:05.244+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:58:05.247+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:05.263+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:05.263+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:58:05.277+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:05.277+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:58:05.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.218 seconds
+[2026-04-27T04:58:15.375+0000] {processor.py:157} INFO - Started process (PID=5007) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:15.376+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:58:15.377+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:15.376+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:17.415+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:17.415+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:58:17.432+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:17.432+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:58:17.436+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:58:17.439+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:58:17.443+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:58:17.448+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:58:17.452+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:17.472+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:17.472+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:58:17.492+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:17.491+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:58:17.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.139 seconds
+[2026-04-27T04:58:27.592+0000] {processor.py:157} INFO - Started process (PID=5013) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:27.592+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:58:27.593+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:27.593+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:29.542+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:29.542+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:58:29.557+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:29.557+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:58:29.561+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:58:29.563+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:58:29.565+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:58:29.569+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:58:29.572+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:29.590+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:29.589+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:58:29.605+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:29.605+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:58:29.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.029 seconds
+[2026-04-27T04:58:39.876+0000] {processor.py:157} INFO - Started process (PID=5019) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:39.877+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:58:39.877+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:39.877+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:41.938+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:41.938+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:58:41.952+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:41.952+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:58:41.956+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:58:41.958+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:58:41.961+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:58:41.965+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:58:41.968+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:41.984+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:41.984+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:58:41.995+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:41.995+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:58:42.007+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.134 seconds
+[2026-04-27T04:58:52.078+0000] {processor.py:157} INFO - Started process (PID=5025) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:52.082+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:58:52.082+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:52.082+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:54.092+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:54.092+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:58:54.106+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:54.106+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:58:54.110+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:58:54.112+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:58:54.114+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:58:54.118+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:58:54.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:58:54.138+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:54.138+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:58:54.150+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:58:54.150+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:58:54.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.086 seconds
+[2026-04-27T04:59:04.386+0000] {processor.py:157} INFO - Started process (PID=5031) to work on /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:59:04.387+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_clima.py for tasks to queue
+[2026-04-27T04:59:04.388+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:59:04.388+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:59:06.446+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:59:06.446+0000] {Transformacion.py:33} ERROR - Error. Existe un fallo en transformación de datos [Errno 13] Permission denied: 'datos_clima_export.csv'
+[2026-04-27T04:59:06.472+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:59:06.471+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db
+[2026-04-27T04:59:06.477+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T04:59:06.481+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T04:59:06.485+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T04:59:06.490+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T04:59:06.494+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_clima']) retrieved from /opt/airflow/dags/dag_clima.py
+[2026-04-27T04:59:06.510+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:59:06.510+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-04-27T04:59:06.522+0000] {logging_mixin.py:154} INFO - [2026-04-27T04:59:06.522+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_clima to None, run_after=None
+[2026-04-27T04:59:06.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_clima.py took 2.160 seconds
