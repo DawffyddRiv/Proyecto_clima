@@ -1,7 +1,7 @@
 import requests 
 import logging
 import pandas as pd
-
+import os
 class ExtractorDatos:
     def __init__(self,paseAPI):  #En este caso no se requiere el pase
         self.paseAPI=paseAPI
@@ -16,7 +16,7 @@ class ExtractorDatos:
             r.raise_for_status()
 
             #Falto agregar la manera en que se revisé el json, no se te vaya a olvidar de nuevo.
-
+            return r.json()
             
         except requests.exceptions.HTTPError as e:
             logging.error(f"Error web-http: {e}")
@@ -27,14 +27,19 @@ class ExtractorDatos:
         except ValueError as e:
             logging.error(f"Error al parsear el archivo JSON {e}")
         
-        return r.json()
+        
     
     def extrae_datos(self,resultado):
         try:
-            return pd.DataFrame(resultado["hourly"])
+            self.df= pd.DataFrame(resultado["hourly"])
+            self.df.to_csv("data_clima.csv", index=False)
+            path_archivo=os.path.abspath("data_clima.csv")            
+            return path_archivo
+
         except (TypeError,KeyError) as e: #Si esta vacio (None)
             logging.warning(f"Se realizó la extracción sin datos o la llave hourly es incorrecta: {e}")
-            return pd.DataFrame()
+            
+            #return pd.DataFrame()
 
 
 

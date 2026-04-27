@@ -1,0 +1,39 @@
+[2026-04-27T01:04:59.169+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_clima.carga manual__2026-04-27T01:04:52.880485+00:00 [queued]>
+[2026-04-27T01:04:59.174+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_clima.carga manual__2026-04-27T01:04:52.880485+00:00 [queued]>
+[2026-04-27T01:04:59.175+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2026-04-27T01:04:59.183+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): carga> on 2026-04-27 01:04:52.880485+00:00
+[2026-04-27T01:04:59.188+0000] {standard_task_runner.py:57} INFO - Started process 8170 to run task
+[2026-04-27T01:04:59.191+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_clima', 'carga', 'manual__2026-04-27T01:04:52.880485+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/dag_clima.py', '--cfg-path', '/tmp/tmpx92_nkii']
+[2026-04-27T01:04:59.192+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask carga
+[2026-04-27T01:04:59.207+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-04-27T01:04:59.235+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_clima.carga manual__2026-04-27T01:04:52.880485+00:00 [running]> on host cdd0ce0ddcd4
+[2026-04-27T01:04:59.314+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_clima' AIRFLOW_CTX_TASK_ID='carga' AIRFLOW_CTX_EXECUTION_DATE='2026-04-27T01:04:52.880485+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-27T01:04:52.880485+00:00'
+[2026-04-27T01:04:59.337+0000] {Cargador.py:16} WARNING - Se cargaron los datos a la tabla: mi_clima de clima.db 
+[2026-04-27T01:04:59.342+0000] {logging_mixin.py:154} INFO -           dia  Temp_Promedio
+0  2026-04-17      21.723529
+1  2026-04-18      22.288235
+2  2026-04-19      19.782353
+3  2026-04-20      17.664706
+4  2026-04-21      18.835294
+5  2026-04-22      19.429412
+6  2026-04-23      18.047059
+[2026-04-27T01:04:59.345+0000] {logging_mixin.py:154} INFO -                  fecha  precipitacion_mm
+0  2026-04-20 18:00:00               0.1
+1  2026-04-21 10:00:00               0.2
+2  2026-04-21 11:00:00               0.2
+3  2026-04-22 22:00:00               0.1
+4  2026-04-23 22:00:00               0.1
+[2026-04-27T01:04:59.347+0000] {logging_mixin.py:154} INFO -        Fecha_  DiferenciaTemp
+0  2026-04-18            14.0
+[2026-04-27T01:04:59.351+0000] {logging_mixin.py:154} INFO -        Fecha_  tempMin  tempMax   tempProm  lluvia_acumulada
+0  2026-04-17     15.9     29.6  21.723529               0.0
+1  2026-04-18     16.1     30.1  22.288235               0.0
+2  2026-04-19     15.4     26.4  19.782353               0.0
+3  2026-04-20     13.5     24.3  17.664706               0.1
+4  2026-04-21     13.8     25.9  18.835294               0.5
+5  2026-04-22     15.0     25.1  19.429412               0.6
+6  2026-04-23     12.2     25.5  18.047059               0.7
+[2026-04-27T01:04:59.352+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-04-27T01:04:59.362+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_clima, task_id=carga, execution_date=20260427T010452, start_date=20260427T010459, end_date=20260427T010459
+[2026-04-27T01:04:59.404+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-04-27T01:04:59.418+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -26,17 +26,18 @@ class CargaDatos:
             return None
     def cerrar_conexion(self):
         logging.info(f"Se cerró la conexion a {self.archivo_clima}")
-
-
+'''
+#Extraccion
 extractor=ExtractorDatos(paseAPI=None)
 informacion=extractor.busqueda("2026-04-17","2026-04-23")
 dat=extractor.extrae_datos(informacion)
+#Transformación
 dfa=Transformador(dat)
 df=dfa.ajustardf(6,22)
-
+#Carga
 objcarga=CargaDatos()
-
 objcarga.cargar_csv("datos_clima_export.csv")
+#Consultas solicitadas
 consulta_uno=objcarga.consultando("Select strftime('%Y-%m-%d',fecha) as dia , avg(temperatura_c) as Temp_Promedio from mi_clima group by dia order by fecha asc") #Aqui lo primero que se me ocurre es un group by para la primer consulta
 print(consulta_uno)
 consulta_dos=objcarga.consultando("select fecha,precipitacion_mm from mi_clima where precipitacion_mm > 0")
@@ -44,7 +45,15 @@ print(consulta_dos)
 consulta_3=objcarga.consultando("select date(fecha) as Fecha_, (max(temperatura_c)-min(temperatura_c)) as DiferenciaTemp from mi_clima group by Fecha_ order by DiferenciaTemp desc limit 1")
 print(consulta_3)#Aqui el detalle fue la fecha la cual al tener la hora dentro de su formato me hacia considerar cada registro como único lo que impedia el group by.
 
-#Vamos a realizar primero la consulta simple que solicitan, despues pasamos a mostrar como se vería como acumulado por dia. No si se requiere un CTE con una funciont de ventana
-
-consulta_4=objcarga.consultando("With agrupados as(select date(fecha) as Fecha_,min(temperatura_c) as tempMin, max(temperatura_c) as tempMax,avg(temperatura_c) as tempProm,sum(precipitacion_mm) as lluvia_dia from mi_clima group by date(fecha))select Fecha_,tempMin,tempMax,tempProm, sum(lluvia_dia) over (order by Fecha_ rows between unbounded preceding and current row) as lluvia_acumulada from agrupados")
+#se plantea el CTE con funcion de ventana para introducirlo posteriormente en la consulta
+queryCTE=""" With agrupados as(
+select date(fecha) as Fecha_,
+min(temperatura_c) as tempMin, 
+max(temperatura_c) as tempMax,
+avg(temperatura_c) as tempProm,
+sum(precipitacion_mm) as lluvia_dia from mi_clima group by date(fecha)
+)select Fecha_,tempMin,tempMax,tempProm, 
+sum(lluvia_dia) over (order by Fecha_ rows between unbounded preceding and current row) as lluvia_acumulada from agrupados"""
+consulta_4=objcarga.consultando(queryCTE)
 print(consulta_4)
+'''
