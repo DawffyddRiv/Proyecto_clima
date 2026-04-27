@@ -3,11 +3,11 @@
 Se realizó un etl para cargar datos a un archivo .db y así de obtener métricas de clima(temperatura en °C y precipitación en mm) realizando consultas SQL. La fuente de datos de origen se recuperan a a través de la API Open Meteo.  
 
 ## Tecnologías empleadas
--Lenguaje:Python(requests,logging,pandas,json,SQLAlchemy)
--Orquestador: Airflow
--Contenedor:Docker
--Base de Datos: SQLite3
--SO:WSL2 (Ubuntu)
+*Lenguaje:Python(requests,logging,pandas,json,SQLAlchemy)
+*Orquestador: Airflow
+*Contenedor:Docker
+*Base de Datos: SQLite3
+*SO:WSL2 (Ubuntu)
 
 ### Etapas del Pipeline
 #### Extracción
