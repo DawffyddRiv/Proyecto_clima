@@ -1,7 +1,7 @@
 
-Proyecto ETL para datos climáticos.
+## Poyecto ETL para datos climáticos.
 
-## Stack Tecnológico
+# Stack Tecnológico
 Lenguaje:Python
 Orquestador: Airflow
 Contenedor:Docker

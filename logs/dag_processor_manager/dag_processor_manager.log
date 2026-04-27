@@ -3224,3 +3224,993 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/test_spark_connection.py                           1           0  0.14s           2026-04-27T01:13:55
 /opt/airflow/dags/dag_clima.py                                       1           0  0.44s           2026-04-27T01:13:48
 ================================================================================
+[2026-04-27T01:14:29.138+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:14:29.140+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:14:29.146+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:14:26
+/opt/airflow/dags/dag_clima.py                                       1           0  0.37s           2026-04-27T01:14:24
+================================================================================
+[2026-04-27T01:14:59.676+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:14:59.678+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:14:59.685+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:14:56
+/opt/airflow/dags/dag_clima.py                                       1           0  0.39s           2026-04-27T01:14:57
+================================================================================
+[2026-04-27T01:15:30.356+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:15:30.358+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:15:30.370+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:15:27
+/opt/airflow/dags/dag_clima.py                                       1           0  0.40s           2026-04-27T01:15:23
+================================================================================
+[2026-04-27T01:16:00.801+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:16:00.804+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:16:00.812+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:15:57
+/opt/airflow/dags/dag_clima.py                                       1           0  0.52s           2026-04-27T01:15:57
+================================================================================
+[2026-04-27T01:16:31.342+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:16:31.343+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:16:31.352+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:16:28
+/opt/airflow/dags/dag_clima.py                                       1           0  0.49s           2026-04-27T01:16:30
+================================================================================
+[2026-04-27T01:17:01.709+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:17:01.710+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:17:01.716+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:16:58
+/opt/airflow/dags/dag_clima.py                                       1           0  0.42s           2026-04-27T01:16:52
+================================================================================
+[2026-04-27T01:17:32.145+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:17:32.147+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:17:32.159+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:17:29
+/opt/airflow/dags/dag_clima.py                                       1           0  0.37s           2026-04-27T01:17:26
+================================================================================
+[2026-04-27T01:18:02.616+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:18:02.617+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:18:02.626+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:17:59
+/opt/airflow/dags/dag_clima.py                                       1           0  0.39s           2026-04-27T01:17:59
+================================================================================
+[2026-04-27T01:18:33.049+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:18:33.050+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:18:33.061+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:18:30
+/opt/airflow/dags/dag_clima.py               9015  0.00s             1           0  0.44s           2026-04-27T01:18:22
+================================================================================
+[2026-04-27T01:19:03.513+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:19:03.515+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:19:03.522+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.10s           2026-04-27T01:19:00
+/opt/airflow/dags/dag_clima.py                                       1           0  0.38s           2026-04-27T01:18:55
+================================================================================
+[2026-04-27T01:19:34.045+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:19:34.047+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:19:34.057+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:19:31
+/opt/airflow/dags/dag_clima.py                                       1           0  0.39s           2026-04-27T01:19:29
+================================================================================
+[2026-04-27T01:20:04.559+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:20:04.561+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:20:04.570+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:20:01
+/opt/airflow/dags/dag_clima.py                                       1           0  0.37s           2026-04-27T01:20:02
+================================================================================
+[2026-04-27T01:20:34.960+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:20:34.961+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:20:34.968+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:20:31
+/opt/airflow/dags/dag_clima.py                                       1           0  0.35s           2026-04-27T01:20:25
+================================================================================
+[2026-04-27T01:21:05.418+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:21:05.421+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:21:05.427+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:21:02
+/opt/airflow/dags/dag_clima.py                                       1           0  0.40s           2026-04-27T01:20:58
+================================================================================
+[2026-04-27T01:21:35.822+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:21:35.824+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:21:35.832+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:21:32
+/opt/airflow/dags/dag_clima.py                                       1           0  0.39s           2026-04-27T01:21:32
+================================================================================
+[2026-04-27T01:22:06.254+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:22:06.257+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:22:06.271+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:22:03
+/opt/airflow/dags/dag_clima.py               9234  0.00s             1           0  1.24s           2026-04-27T01:21:55
+================================================================================
+[2026-04-27T01:22:36.660+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:22:36.661+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:22:36.668+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:22:33
+/opt/airflow/dags/dag_clima.py                                       1           0  1.43s           2026-04-27T01:22:31
+================================================================================
+[2026-04-27T01:23:07.079+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:23:07.081+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:23:07.087+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:23:04
+/opt/airflow/dags/dag_clima.py               9294  0.93s             1           0  1.26s           2026-04-27T01:22:56
+================================================================================
+[2026-04-27T01:23:37.564+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:23:37.570+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:23:37.577+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:23:34
+/opt/airflow/dags/dag_clima.py                                       1           0  1.40s           2026-04-27T01:23:31
+================================================================================
+[2026-04-27T01:24:07.978+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:24:07.980+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:24:07.987+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.06s           2026-04-27T01:24:04
+/opt/airflow/dags/dag_clima.py                                       1           0  1.24s           2026-04-27T01:24:07
+================================================================================
+[2026-04-27T01:24:38.379+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:24:38.381+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:24:38.391+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:24:35
+/opt/airflow/dags/dag_clima.py                                       1           0  1.33s           2026-04-27T01:24:31
+================================================================================
+[2026-04-27T01:25:08.934+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:25:08.936+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:25:08.946+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:25:05
+/opt/airflow/dags/dag_clima.py                                       1           0  1.32s           2026-04-27T01:25:07
+================================================================================
+[2026-04-27T01:25:39.298+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:25:39.301+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:25:39.313+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:25:36
+/opt/airflow/dags/dag_clima.py                                       1           0  1.31s           2026-04-27T01:25:31
+================================================================================
+[2026-04-27T01:26:09.742+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:26:09.743+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:26:09.751+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:26:06
+/opt/airflow/dags/dag_clima.py                                       1           0  1.50s           2026-04-27T01:26:08
+================================================================================
+[2026-04-27T01:26:40.092+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:26:40.095+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:26:40.105+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:26:37
+/opt/airflow/dags/dag_clima.py                                       1           0  1.35s           2026-04-27T01:26:32
+================================================================================
+[2026-04-27T01:27:10.650+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:27:10.651+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:27:10.658+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:27:07
+/opt/airflow/dags/dag_clima.py                                       1           0  1.34s           2026-04-27T01:27:08
+================================================================================
+[2026-04-27T01:27:41.024+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:27:41.026+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:27:41.047+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:27:38
+/opt/airflow/dags/dag_clima.py                                       1           0  1.27s           2026-04-27T01:27:33
+================================================================================
+[2026-04-27T01:28:11.604+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:28:11.609+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:28:11.631+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:28:08
+/opt/airflow/dags/dag_clima.py                                       1           0  1.31s           2026-04-27T01:28:08
+================================================================================
+[2026-04-27T01:28:42.012+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:28:42.013+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:28:42.020+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:28:39
+/opt/airflow/dags/dag_clima.py                                       1           0  1.29s           2026-04-27T01:28:33
+================================================================================
+[2026-04-27T01:29:12.492+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:29:12.494+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:29:12.502+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.10s           2026-04-27T01:29:09
+/opt/airflow/dags/dag_clima.py                                       1           0  1.36s           2026-04-27T01:29:09
+================================================================================
+[2026-04-27T01:29:42.929+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:29:42.932+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:29:42.940+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:29:39
+/opt/airflow/dags/dag_clima.py                                       1           0  1.27s           2026-04-27T01:29:33
+================================================================================
+[2026-04-27T01:30:12.976+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:30:12.977+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:30:13.401+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:30:10
+/opt/airflow/dags/dag_clima.py                                       1           0  4.69s           2026-04-27T01:30:12
+================================================================================
+[2026-04-27T01:30:43.761+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:30:43.763+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:30:43.776+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.11s           2026-04-27T01:30:40
+/opt/airflow/dags/dag_clima.py                                       1           0  1.33s           2026-04-27T01:30:36
+================================================================================
+[2026-04-27T01:31:14.347+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:31:14.349+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:31:14.357+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.14s           2026-04-27T01:31:11
+/opt/airflow/dags/dag_clima.py                                       1           0  1.32s           2026-04-27T01:31:13
+================================================================================
+[2026-04-27T01:31:44.764+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:31:44.765+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:31:44.771+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:31:41
+/opt/airflow/dags/dag_clima.py                                       1           0  1.37s           2026-04-27T01:31:37
+================================================================================
+[2026-04-27T01:32:15.250+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:32:15.251+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:32:15.257+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.25s           2026-04-27T01:32:13
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:32:12
+================================================================================
+[2026-04-27T01:32:45.588+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:32:45.590+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:32:45.596+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.28s           2026-04-27T01:32:37
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:32:42
+================================================================================
+[2026-04-27T01:33:16.074+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:33:16.075+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:33:16.082+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.25s           2026-04-27T01:33:14
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:33:13
+================================================================================
+[2026-04-27T01:33:46.439+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:33:46.442+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:33:46.452+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.28s           2026-04-27T01:33:38
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:33:43
+================================================================================
+[2026-04-27T01:34:16.862+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:34:16.864+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:34:16.871+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.16s           2026-04-27T01:34:14
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:34:13
+================================================================================
+[2026-04-27T01:34:47.279+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:34:47.280+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:34:47.287+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.26s           2026-04-27T01:34:37
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:34:44
+================================================================================
+[2026-04-27T01:35:17.738+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:35:17.739+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:35:17.746+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.39s           2026-04-27T01:35:13
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:35:14
+================================================================================
+[2026-04-27T01:35:48.300+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:35:48.302+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:35:48.309+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.34s           2026-04-27T01:35:47
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:35:45
+================================================================================
+[2026-04-27T01:36:18.719+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:36:18.724+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:36:18.741+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.22s           2026-04-27T01:36:11
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.11s           2026-04-27T01:36:15
+================================================================================
+[2026-04-27T01:36:49.281+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:36:49.286+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:36:49.300+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.22s           2026-04-27T01:36:47
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:36:46
+================================================================================
+[2026-04-27T01:37:19.676+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:37:19.677+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:37:19.685+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_clima.py                                       0           1  1.23s           2026-04-27T01:37:10
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:37:16
+================================================================================
+[2026-04-27T01:37:50.148+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:37:50.151+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:37:50.159+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:37:47
+/opt/airflow/dags/dag_clima.py                                       1           0  1.46s           2026-04-27T01:37:47
+================================================================================
+[2026-04-27T01:38:20.498+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:38:20.499+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:38:20.508+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:38:17
+/opt/airflow/dags/dag_clima.py                                       1           0  1.39s           2026-04-27T01:38:11
+================================================================================
+[2026-04-27T01:38:50.981+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:38:50.982+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:38:50.991+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:38:47
+/opt/airflow/dags/dag_clima.py                                       1           0  1.29s           2026-04-27T01:38:48
+================================================================================
+[2026-04-27T01:39:21.358+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:39:21.362+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:39:21.371+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:39:18
+/opt/airflow/dags/dag_clima.py                                       1           0  1.36s           2026-04-27T01:39:11
+================================================================================
+[2026-04-27T01:39:51.855+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:39:51.856+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:39:51.865+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:39:48
+/opt/airflow/dags/dag_clima.py                                       1           0  1.32s           2026-04-27T01:39:48
+================================================================================
+[2026-04-27T01:40:22.242+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:40:22.245+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:40:22.253+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:40:19
+/opt/airflow/dags/dag_clima.py                                       1           0  2.12s           2026-04-27T01:40:12
+================================================================================
+[2026-04-27T01:40:52.739+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:40:52.746+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:40:52.800+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:40:49
+/opt/airflow/dags/dag_clima.py                                       1           0  1.26s           2026-04-27T01:40:47
+================================================================================
+[2026-04-27T01:41:23.227+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:41:23.228+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:41:23.234+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:41:20
+/opt/airflow/dags/dag_clima.py              10380  1.01s             1           0  1.26s           2026-04-27T01:41:11
+================================================================================
+[2026-04-27T01:41:53.676+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:41:53.677+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:41:53.686+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:41:50
+/opt/airflow/dags/dag_clima.py                                       1           0  1.26s           2026-04-27T01:41:47
+================================================================================
+[2026-04-27T01:42:24.063+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:42:24.064+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:42:24.072+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:42:21
+/opt/airflow/dags/dag_clima.py              10440  1.02s             1           0  1.29s           2026-04-27T01:42:12
+================================================================================
+[2026-04-27T01:42:54.526+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:42:54.527+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:42:54.532+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:42:51
+/opt/airflow/dags/dag_clima.py                                       1           0  1.22s           2026-04-27T01:42:48
+================================================================================
+[2026-04-27T01:43:25.109+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:43:25.112+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:43:25.125+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:43:22
+/opt/airflow/dags/dag_clima.py                                       1           0  1.22s           2026-04-27T01:43:24
+================================================================================
+[2026-04-27T01:43:55.528+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:43:55.529+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:43:55.535+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:43:52
+/opt/airflow/dags/dag_clima.py                                       1           0  1.28s           2026-04-27T01:43:47
+================================================================================
+[2026-04-27T01:44:26.065+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:44:26.066+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:44:26.074+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:44:23
+/opt/airflow/dags/dag_clima.py                                       1           0  1.25s           2026-04-27T01:44:24
+================================================================================
+[2026-04-27T01:44:56.420+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:44:56.423+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:44:56.430+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:44:53
+/opt/airflow/dags/dag_clima.py                                       1           0  1.27s           2026-04-27T01:44:47
+================================================================================
+[2026-04-27T01:45:26.900+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:45:26.902+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:45:26.907+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:45:23
+/opt/airflow/dags/dag_clima.py                                       1           0  1.29s           2026-04-27T01:45:24
+================================================================================
+[2026-04-27T01:45:57.261+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:45:57.263+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:45:57.270+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:45:54
+/opt/airflow/dags/dag_clima.py                                       1           0  1.32s           2026-04-27T01:45:48
+================================================================================
+[2026-04-27T01:46:27.779+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:46:27.781+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:46:27.790+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:46:24
+/opt/airflow/dags/dag_clima.py                                       1           0  1.23s           2026-04-27T01:46:24
+================================================================================
+[2026-04-27T01:46:58.140+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:46:58.142+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:46:58.150+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.12s           2026-04-27T01:46:55
+/opt/airflow/dags/dag_clima.py                                       1           0  1.24s           2026-04-27T01:46:48
+================================================================================
+[2026-04-27T01:47:28.597+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:47:28.604+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:47:28.615+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:47:25
+/opt/airflow/dags/dag_clima.py                                       1           0  1.21s           2026-04-27T01:47:24
+================================================================================
+[2026-04-27T01:47:59.015+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:47:59.018+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:47:59.028+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:47:56
+/opt/airflow/dags/dag_clima.py                                       1           0  1.39s           2026-04-27T01:47:49
+================================================================================
+[2026-04-27T01:48:29.473+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:48:29.476+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:48:29.483+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:48:26
+/opt/airflow/dags/dag_clima.py                                       1           0  1.41s           2026-04-27T01:48:25
+================================================================================
+[2026-04-27T01:48:59.861+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:48:59.866+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:48:59.885+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:48:56
+/opt/airflow/dags/dag_clima.py                                       1           0  1.25s           2026-04-27T01:48:49
+================================================================================
+[2026-04-27T01:49:30.278+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:49:30.279+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:49:30.284+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:49:27
+/opt/airflow/dags/dag_clima.py                                       1           0  1.37s           2026-04-27T01:49:26
+================================================================================
+[2026-04-27T01:50:00.662+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:50:00.663+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:50:00.670+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:49:57
+/opt/airflow/dags/dag_clima.py                                       1           0  1.40s           2026-04-27T01:49:50
+================================================================================
+[2026-04-27T01:50:31.191+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:50:31.194+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:50:31.203+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:50:28
+/opt/airflow/dags/dag_clima.py                                       1           0  1.35s           2026-04-27T01:50:28
+================================================================================
+[2026-04-27T01:51:01.575+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:51:01.577+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:51:01.585+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.10s           2026-04-27T01:50:58
+/opt/airflow/dags/dag_clima.py                                       1           0  1.37s           2026-04-27T01:50:52
+================================================================================
+[2026-04-27T01:51:32.078+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:51:32.081+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:51:32.089+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:51:29
+/opt/airflow/dags/dag_clima.py                                       1           0  1.45s           2026-04-27T01:51:29
+================================================================================
+[2026-04-27T01:52:02.439+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:52:02.440+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:52:02.448+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:51:59
+/opt/airflow/dags/dag_clima.py                                       1           0  1.41s           2026-04-27T01:51:53
+================================================================================
+[2026-04-27T01:52:32.927+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:52:32.928+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:52:32.936+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:52:29
+/opt/airflow/dags/dag_clima.py                                       1           0  1.43s           2026-04-27T01:52:30
+================================================================================
+[2026-04-27T01:53:03.331+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:53:03.332+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:53:03.340+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:53:00
+/opt/airflow/dags/dag_clima.py                                       1           0  1.34s           2026-04-27T01:52:54
+================================================================================
+[2026-04-27T01:53:33.812+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:53:33.813+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:53:33.824+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:53:30
+/opt/airflow/dags/dag_clima.py                                       1           0  1.30s           2026-04-27T01:53:30
+================================================================================
+[2026-04-27T01:54:04.183+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:54:04.184+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:54:04.192+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:54:01
+/opt/airflow/dags/dag_clima.py                                       1           0  1.39s           2026-04-27T01:53:55
+================================================================================
+[2026-04-27T01:54:34.628+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:54:34.630+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:54:34.637+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:54:31
+/opt/airflow/dags/dag_clima.py                                       1           0  1.27s           2026-04-27T01:54:31
+================================================================================
+[2026-04-27T01:55:05.008+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:55:05.009+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:55:05.017+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:55:02
+/opt/airflow/dags/dag_clima.py                                       1           0  1.30s           2026-04-27T01:54:55
+================================================================================
+[2026-04-27T01:55:35.414+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:55:35.418+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:55:35.426+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.14s           2026-04-27T01:55:32
+/opt/airflow/dags/dag_clima.py                                       1           0  1.35s           2026-04-27T01:55:31
+================================================================================
+[2026-04-27T01:56:05.993+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:56:05.994+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:56:06.000+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.12s           2026-04-27T01:56:03
+/opt/airflow/dags/dag_clima.py                                       1           0  1.34s           2026-04-27T01:55:56
+================================================================================
+[2026-04-27T01:56:36.511+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:56:36.513+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:56:36.524+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.09s           2026-04-27T01:56:33
+/opt/airflow/dags/dag_clima.py                                       1           0  1.35s           2026-04-27T01:56:32
+================================================================================
+[2026-04-27T01:57:06.982+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:57:06.983+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:57:06.988+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:57:04
+/opt/airflow/dags/dag_clima.py                                       1           0  1.30s           2026-04-27T01:56:57
+================================================================================
+[2026-04-27T01:57:37.408+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:57:37.410+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:57:37.418+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.08s           2026-04-27T01:57:34
+/opt/airflow/dags/dag_clima.py                                       1           0  1.35s           2026-04-27T01:57:33
+================================================================================
+[2026-04-27T01:58:07.932+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:58:07.934+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:58:07.946+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:58:04
+/opt/airflow/dags/dag_clima.py              11382  0.00s             1           0  1.27s           2026-04-27T01:57:57
+================================================================================
+[2026-04-27T01:58:38.344+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:58:38.346+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:58:38.354+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:58:35
+/opt/airflow/dags/dag_clima.py                                       1           0  1.30s           2026-04-27T01:58:33
+================================================================================
+[2026-04-27T01:59:08.781+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:59:08.787+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:59:08.799+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:59:05
+/opt/airflow/dags/dag_clima.py              11442  1.03s             1           0  1.28s           2026-04-27T01:58:56
+================================================================================
+[2026-04-27T01:59:39.263+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-04-27T01:59:39.264+0000] {manager.py:758} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-27T01:59:39.280+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/test_spark_connection.py                           1           0  0.07s           2026-04-27T01:59:36
+/opt/airflow/dags/dag_clima.py                                       1           0  1.35s           2026-04-27T01:59:32
+================================================================================
