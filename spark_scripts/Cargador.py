@@ -25,6 +25,7 @@ class CargaDatos:
             logging.error(f"Error en la consulta: {e}")
             return None
     def cerrar_conexion(self):
+        self.conn.close()
         logging.info(f"Se cerró la conexion a {self.archivo_clima}")
 
 #Extraccion
@@ -58,3 +59,4 @@ sum(precipitacion_mm) as lluvia_dia from mi_clima group by date(fecha)
 sum(lluvia_dia) over (order by Fecha_ rows between unbounded preceding and current row) as lluvia_acumulada from agrupados"""
 consulta_4=objcarga.consultando(queryCTE)
 print(consulta_4)
+objcarga.cerrar_conexion()

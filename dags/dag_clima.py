@@ -44,6 +44,7 @@ def tarea_carga():
     sum(lluvia_dia) over (order by Fecha_ rows between unbounded preceding and current row) as lluvia_acumulada from agrupados"""
     consulta_4=objcarga.consultando(queryCTE)
     print(consulta_4)
+    objcarga.cerrar_conexion()
 
 #Establecemos el DAG
 with DAG(
